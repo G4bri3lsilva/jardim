@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFCFDD;
+
+}
+.site{
+    display: flex;
+    justify-content: center;
+}
+.login{
+    background-color:#ffff;
+    display: flex;
+    flex-direction: column;
+    width: 1008px;
+    height: 765px;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    top: 80px;
+    position: relative;
+}
