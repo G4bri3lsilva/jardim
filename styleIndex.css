@@ -7,110 +7,23 @@
     padding: 0%;
     box-sizing: border-box;
 }
-
-
-.menu {
-
-    background-color: #ffff;
-    height: 160px;
-}
-
-.links {
+.menu{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+  
 }
-
+.links ul{
+   display: flex;
+   
+ 
+    
+   
+}
 .conteudo{
     background-color: #FFCFDD;
 }
-.links a{
-    text-transform: uppercase;
-    font-size: 28px;
-    color: #6AAD71;
-    font-family: 'Lora', serif;
+.abaixo{
 
 }
 
 
-.links ul{
-    display: flex;
-    align-items: center;
-    gap: 75px;
-    margin: 50px;
-    
-}
-.links button{
-    border-style: none;
-    background-color: #ffff;
-   
-}
-
-.logo img {
-    margin-left: 50px;
-}
-.fundo img{
-    display: flex;
-    position: relative;
-    top: 243px;
-    
-  
-
-}
-
-.merchan{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    bottom: 850px;
-    gap: 20px;
-    
-    
-}
-.merchan h1{
-    color: #F51F5F;
-    font-family: 'Love Light';
-    font-size: 96px;
-    
-
-
-}
-.merchan p{
-    font-family: 'Lora', serif;
-    color: #A84C68;
- 
-
-}
-.merchan button{
-    background-color: #F51F5F;
-    border-radius: 40px;
-    width: 311px;
-    height: 49px;
-    border-style: none;
-    
-    
-}
-.merchan a{
-    color: #FFff;
-    text-transform: uppercase;
-    font-size: 24px;
-
-   
-}
-a{
-    text-decoration: none;
-}
-li{
-    list-style: none;
-}
-.abaixo {
-    display: flex;
-    align-items: center;
-    background-color: #ffff;
-    width: 2000px;
-    height: 160px;
-    gap: 20px;
-    margin-left: 40px;
-
-    
-}
