@@ -1,29 +1,121 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 * {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
 .menu{
+    background-color: #ffff;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-  
 }
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+}
+
 .links ul{
-   display: flex;
-   
- 
-    
-   
+    display: flex;
+    gap: 200px;
+    margin-right:35px ;
 }
-.conteudo{
+
+.conteudo {
+    height: 850px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-image: url(imagens/fundo.svg);
     background-color: #FFCFDD;
 }
-.abaixo{
 
+.corfundo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFCFDD;
+    height: 100%;
 }
 
+.fundo{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-color: #FFCFDD;
+}
 
+.texto01{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Love Light', cursive;
+    font-size: 96px;
+    color: #F51F5F;
+    margin-right: 40px;
+}
+
+.texto02{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #F51F5F;
+    font-family: 'Lora', serif;
+    margin-right: 40px;
+}
+
+.texto03{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #F51F5F;
+    font-family: 'Lora', serif;
+    margin-right: 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-color: #F51F5F;
+    width: 311px;
+    height: 49px;
+    
+}
+
+.fundo img{
+    display: flex;
+    width: 950px;
+    height: 842px;
+    
+}
+
+.abaixo{
+    background-color: #ffff;
+    height: 135px;
+}
+
+.intens {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 145px;
+}
+ul{
+    list-style: none;
+}
+.links a{
+    font-size: 28px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #6AAD71;
+    font-family: 'Lora', serif;
+
+}
+.links button{
+    background-color: #ffff;
+    border-style: none;
+}
