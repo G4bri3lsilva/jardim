@@ -51,7 +51,9 @@ body{
 }
 
 .nome01{
-    
+    display: flex;
+    margin-left: 100px;
+    font-size: 20px;
 }
 
 .botao01{

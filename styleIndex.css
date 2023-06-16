@@ -3,114 +3,120 @@
   @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 * {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-
-.menu {
-
+.menu{
     background-color: #ffff;
-    height: 160px;
-}
-
-.links {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.conteudo{
+.logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links ul{
+    display: flex;
+    gap: 200px;
+    margin-right:35px ;
+}
+
+.conteudo {
+    height: 850px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-image: url(imagens/fundo.svg);
     background-color: #FFCFDD;
 }
+
+.corfundo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFCFDD;
+    height: 100%;
+}
+
+.fundo{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-color: #FFCFDD;
+}
+
+.texto01{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Love Light', cursive;
+    font-size: 96px;
+    color: #F51F5F;
+    margin-right: 40px;
+}
+
+.texto02{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #F51F5F;
+    font-family: 'Lora', serif;
+    margin-right: 40px;
+}
+
+.texto03{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #F51F5F;
+    font-family: 'Lora', serif;
+    margin-right: 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-color: #F51F5F;
+    width: 311px;
+    height: 49px;
+    
+}
+
+.fundo img{
+    display: flex;
+    width: 950px;
+    height: 842px;
+    
+}
+
+.abaixo{
+    background-color: #ffff;
+    height: 135px;
+}
+
+.intens {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 145px;
+}
+ul{
+    list-style: none;
+}
 .links a{
-    text-transform: uppercase;
     font-size: 28px;
+    text-decoration: none;
+    text-transform: uppercase;
     color: #6AAD71;
     font-family: 'Lora', serif;
 
 }
-
-
-.links ul{
-    display: flex;
-    align-items: center;
-    gap: 75px;
-    margin: 50px;
-    
-}
 .links button{
-    border-style: none;
     background-color: #ffff;
-   
-}
-
-.logo img {
-    margin-left: 50px;
-}
-.fundo img{
-    display: flex;
-    position: relative;
-    top: 243px;
-    
-  
-
-}
-
-.merchan{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    bottom: 850px;
-    gap: 20px;
-    
-    
-}
-.merchan h1{
-    color: #F51F5F;
-    font-family: 'Love Light';
-    font-size: 96px;
-    
-
-
-}
-.merchan p{
-    font-family: 'Lora', serif;
-    color: #A84C68;
- 
-
-}
-.merchan button{
-    background-color: #F51F5F;
-    border-radius: 40px;
-    width: 311px;
-    height: 49px;
     border-style: none;
-    
-    
-}
-.merchan a{
-    color: #FFff;
-    text-transform: uppercase;
-    font-size: 24px;
-
-   
-}
-a{
-    text-decoration: none;
-}
-li{
-    list-style: none;
-}
-.abaixo {
-    display: flex;
-    align-items: center;
-    background-color: #ffff;
-    width: 2000px;
-    height: 160px;
-    gap: 20px;
-    margin-left: 40px;
-
-    
 }
