@@ -48,6 +48,7 @@
     justify-content: end;
     align-items: center;
     background-color: #FFCFDD;
+    gap: 50px;
 }
 
 .texto01{
@@ -83,6 +84,14 @@
     width: 311px;
     height: 49px;
     
+}
+.fundo a{
+    display: flex;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FFCFDD;
+    text-transform: uppercase;
+
 }
 
 .fundo img{
