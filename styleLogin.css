@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,46 +11,88 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url(./imagens/fundo.svg);
+    background-blend-mode: color-dodge;
+    font-family: 'Lora', serif;
 }
 
 main {
-    margin-top: 100px;
+    margin-top: 50px;
     background-color: #ffff;
-    height: 765px;
+    height: 774px;
     width: 1041px;
-    left: 218px;
-    top: 156px;
     border-radius: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-  
+    margin-bottom: 50px;
 }
 .login{
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 758px;
    
 
 }
+
+.login input{
+    border-radius: 50px;
+    border: 1px solid #000;
+    width: 758px;
+    height: 88.31px;
+}
+
+.nomes{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 23px;
+    color: #6AAD71;
+    
+}
+
+.prin{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    justify-content: center;
+    
+}
+
 .massa{
     flex-direction: row;
     display: flex;
     justify-content: center;
-    gap: 200px;
-}
-.massa button{
-    width: 1000px;
-    height: 50px;
-    border-radius: 40px;
-    background-color: #F51F5F;
-    
-
+    gap: 50px;
+    margin-bottom: 25px;
 }
 
 .massa a{
 text-decoration: none;
-font-size: 15px;
 color: #ffff;
+font-size: 30px;
+font-weight: 200;
+line-height: 33px;
+font-style: normal;
 
+}
+
+.massa01{
+    background-color: #A84C68;
+    width: 290px;
+    height: 96px;
+    border-radius: 40px;
+    opacity: 0.7;
+    border: 0;
+}
+
+.massa02{
+    background-color: #F51F5F;
+    width: 477px;
+    height: 100px;
+    border-radius: 40px;
+    opacity: 0.5;
+    border: 0;
 }
