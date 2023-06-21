@@ -31,6 +31,7 @@
     align-items: center;
     background-image: url(imagens/fundo.svg);
     background-color: #FFCFDD;
+    background-blend-mode: color-dodge;
 }
 
 .corfundo {
@@ -108,10 +109,11 @@
 
 .intens {
     display: flex;
-    gap: 16px;
+    gap: 700px;
     align-items: center;
     margin-left: 40px;
     margin-top: 145px;
+    color: #6AAD71;
 }
 ul{
     list-style: none;
